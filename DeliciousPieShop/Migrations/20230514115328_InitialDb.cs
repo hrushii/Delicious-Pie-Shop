@@ -4,7 +4,7 @@
 
 namespace DeliciousPieShop.Migrations
 {
-    public partial class IntialMigrations : Migration
+    public partial class InitialDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

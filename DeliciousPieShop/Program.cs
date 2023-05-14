@@ -16,4 +16,5 @@ var app = builder.Build();
 app.UseStaticFiles();
 app.UseDeveloperExceptionPage();
 app.MapDefaultControllerRoute();
+DbInitializer.Seed(app);
 app.Run();

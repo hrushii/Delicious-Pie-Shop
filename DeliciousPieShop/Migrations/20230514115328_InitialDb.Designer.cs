@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DeliciousPieShop.Migrations
 {
     [DbContext(typeof(DeliciousPieShopDbContext))]
-    [Migration("20230512175412_IntialMigrations")]
-    partial class IntialMigrations
+    [Migration("20230514115328_InitialDb")]
+    partial class InitialDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

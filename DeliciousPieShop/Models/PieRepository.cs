@@ -5,6 +5,10 @@
         public PieRepository(DeliciousPieShopDbContext deliciousPieShopDbContext)
         {
             _deliciousPieShopDbContext = deliciousPieShopDbContext;
+            if(_deliciousPieShopDbContext.Database.EnsureCreated())
+            {
+                var vk = true;
+            }
         }
 
         public DeliciousPieShopDbContext _deliciousPieShopDbContext { get; }
