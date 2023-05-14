@@ -4,12 +4,12 @@ using DeliciousPieShop.ViewModel;
 
 namespace DeliciousPieShop.Controllers
 {
-    public class PieController : Controller 
+    public class PieController : Controller
     {
         public readonly IPieRepository _pieRepository;
         public ICategoryRepository _categoryRepository { get; }
 
-        public PieController(IPieRepository pieRepository,ICategoryRepository categoryRepository)
+        public PieController(IPieRepository pieRepository, ICategoryRepository categoryRepository)
         {
             _pieRepository = pieRepository;
             _categoryRepository = categoryRepository;
@@ -20,8 +20,16 @@ namespace DeliciousPieShop.Controllers
             //ViewBag.CurrentCategory = "Cheese cakes";
             //return View(_pieRepository.AllPies);
 
-            var pieListModel = new PieListViewModel(_pieRepository.AllPies, "Cheese cakes");
+            var pieListModel = new PieListViewModel(_pieRepository.AllPies, "All pies");
             return View(pieListModel);
+        }
+
+        public IActionResult Details(int id)
+        {
+            var pie = _pieRepository.GetPieById(id);
+            if (pie == null)
+                return NotFound();
+            return View(pie);
         }
     }
 }
