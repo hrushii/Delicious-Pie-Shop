@@ -2,9 +2,7 @@
 {
     public class Order
     {
-        public Order()
-        {
-            public int OrderId { get; set; }
+        public int OrderId { get; set; }
 
         public List<OrderDetail>? OrderDetails { get; set; }
 
@@ -31,6 +29,6 @@
         public decimal OrderTotal { get; set; }
 
         public DateTime OrderPlaced { get; set; }
-    }
+        
     }
 }
