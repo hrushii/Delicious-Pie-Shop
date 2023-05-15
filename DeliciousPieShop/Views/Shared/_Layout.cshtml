@@ -1,4 +1,5 @@
 ﻿@addTagHelper * , Microsoft.AspNetCore.Mvc.TagHelpers
+
 <!DOCTYPE html>
 
 <html>
@@ -35,7 +36,16 @@
                             <li class="nav-item">
                                 <a asp-controller="Pie" asp-action="List" class="nav-link">Pies</a>
                             </li>
+                            <li class="nav-item">
+                                <a asp-controller="contact" asp-action="Index" class="nav-link">Contact Us</a>
+                            </li>
+
+                            <li>
+                                <vc:category-menu></vc:category-menu>
+                            </li>
+
                         </ul>
+                        <vc:shopping-cart-summary></vc:shopping-cart-summary>
                     </div>
                 </div>
             </nav>
