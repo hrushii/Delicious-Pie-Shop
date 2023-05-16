@@ -11,6 +11,7 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IShoppingCart,ShoppingCart>(sp=>ShoppingCart.GetCart(sp));
 builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddRazorPages();
 builder.Services.AddDbContext<DeliciousPieShopDbContext>(options =>
 {
     options.UseSqlServer(
@@ -23,5 +24,6 @@ app.UseSession();
 
 app.UseDeveloperExceptionPage();
 app.MapDefaultControllerRoute();
+app.MapRazorPages();
 DbInitializer.Seed(app);
 app.Run();
