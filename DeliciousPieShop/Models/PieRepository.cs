@@ -33,5 +33,11 @@
         {
             return _deliciousPieShopDbContext.Pies.First(x => x.PieId == pieId);
         }
+
+        public IEnumerable<Pie> SearchPies(string searchQuery)
+        {
+            var pies = _deliciousPieShopDbContext.Pies.Where(p => p.Name.Contains(searchQuery));
+            return pies;
+        }
     }
 }
