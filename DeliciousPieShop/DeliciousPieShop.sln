@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliciousPieShop", "DeliciousPieShop.csproj", "{834375B2-B46F-4317-BD97-E1A598C78E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliciousPieShopTests", "..\DeliciousPieShopTests\DeliciousPieShopTests.csproj", "{C981DDE5-BC02-4BE1-A01D-A757865C2886}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliciousPieShopTests", "..\DeliciousPieShopTests\DeliciousPieShopTests.csproj", "{C981DDE5-BC02-4BE1-A01D-A757865C2886}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

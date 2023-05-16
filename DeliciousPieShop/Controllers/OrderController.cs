@@ -1,8 +1,10 @@
 ﻿using DeliciousPieShop.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DeliciousPieShop.Controllers
 {
+    [Authorize]
     public class OrderController : Controller
     {
         public OrderController(IOrderRepository orderRepository,IShoppingCart shoppingCart)

@@ -185,3 +185,10 @@ C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTest
 C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTests\obj\Debug\net6.0\ref\DeliciousPieShopTests.dll
 C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTests\obj\Debug\net6.0\DeliciousPieShopTests.pdb
 C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTests\obj\Debug\net6.0\DeliciousPieShopTests.genruntimeconfig.cache
+C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTests\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTests\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTests\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTests\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTests\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTests\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\hrisi\Documents\Personal\dotNet\Delicious-Pie-Shop\DeliciousPieShopTests\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll

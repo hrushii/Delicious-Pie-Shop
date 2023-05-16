@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace DeliciousPieShop.Models
 {
-    public class DeliciousPieShopDbContext : DbContext
+    public class DeliciousPieShopDbContext : IdentityDbContext
     {
         public DeliciousPieShopDbContext(DbContextOptions<DeliciousPieShopDbContext> options) :base(options)
         {

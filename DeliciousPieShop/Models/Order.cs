@@ -38,7 +38,6 @@ namespace DeliciousPieShop.Models
         [Display(Name ="City")]
         public string City { get; set; } = string.Empty;
 
-        [Required (ErrorMessage ="Please enter State")]
         [Display(Name ="State")]
         public string? State { get; set; }
 
