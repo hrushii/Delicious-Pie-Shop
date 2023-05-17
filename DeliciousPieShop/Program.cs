@@ -24,6 +24,9 @@ builder.Services.AddDbContext<DeliciousPieShopDbContext>(options =>
         builder.Configuration["ConnectionStrings:DeliciousPieShopDbContextConnection"]);
 });
 
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<DeliciousPieShopDbContext>();
 //builder.Services.AddControllers(); -> no need as AddCOntrollersWithView is used
@@ -32,7 +35,7 @@ var app = builder.Build();
 app.UseStaticFiles();
 app.UseSession();
 app.UseAuthentication();
-
+app.UseAuthorization();
 app.UseDeveloperExceptionPage();
 app.MapDefaultControllerRoute();
 app.MapRazorPages();
@@ -40,5 +43,5 @@ app.MapRazorPages();
 app.MapBlazorHub();//for SignalR
 app.MapFallbackToPage("/app/{*catchcall}", "/App/Index");
 
-DbInitializer.Seed(app);
+//DbInitializer.Seed(app);
 app.Run();

@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2023-05-16T14:16:14.2926022Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-05-16T14:23:20.396509Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "fdb65b80-6232-4a52-a489-50b65ce30e5f"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DeliciousPieShop20230516193144ResourceGroup"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DeliciousPieShop20230516193144ResourceGroup"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "fdb65b80-6232-4a52-a489-50b65ce30e5f"
+    }
+  }
+}
